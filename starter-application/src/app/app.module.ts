@@ -7,6 +7,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { LoginComponent } from './login/login.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ProductPageComponent } from './product-page/product-page.component';
+import { LazyLoadingComponent } from './lazy-loading/lazy-loading.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ProductPageComponent } from './product-page/product-page.component';
     MainPageComponent,
     LoginComponent,
     HomePageComponent,
-    ProductPageComponent
+    ProductPageComponent,
+    LazyLoadingComponent
   ],
   imports: [
     BrowserModule,
